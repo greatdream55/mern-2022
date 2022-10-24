@@ -1,0 +1,140 @@
+⭐EXAM GUIDE - NOTES - EXPECTATIONS - RULES⭐
+
+Today: 2 weeks and 3 days!
+
+Exam is open book, platform / - not open GitHub! 👀⚠
+you may only use our class GitHub and yours
+
+👉 Must have 13/14 (90%) core assignments turned in to take the exam.
+** we are not speed-running a bootcamp! **
+It's a marathon not a race!
+
+learn.codingdojo.com/exams
+
+EXAM is emulating a take home challenge
+The exam is written as a real life example of a potential employer giving you a timed exercise to test your knowledge
+
+1. take 100% of the exam time! (4.5 hours + 30 mins)
+DO NOT DROP EARLY - take breaks
+👉 Ask Clarification questions
+
+2. Don't panic!
+- the only risk here is for you to find and expose a weakness to study and correct! 🙂
+
+3. Don't watch the clock ⏳
+- set alarms for mid way - last hour and last 20 mins
+
+4. Start with what you know
+- save black-belt features for the end
+
+5. Don't start the exam until you have your environment setup and ready
+- 📂 client - react client
+- 📂 server - node server
+(boiler plate) --> *
+
+6. Use exam instructions as checklist and follow the yellow sticky notes
+- double check before submitting***
+- don't overthink features - do only what the exam asks
+
+7. Use the platform - 100% of the RED BELT features are IN the platform.
+
+8. If you have trouble submitting - delete node_modules BOTH OF THEM!
+/client 
+/server
+npm install
+let me know
+	you can only submit one (1) time!
+
+9. Don't go over time, submit anyway I will still code review it with you.
+- ALWAYS submit what you have
+- not submitting is automatic FAIL
+
+10. Even if you are feeling nervous - Take the exam anyway as an assignment and finish it over the weekend
+
+11. You don't have to submit a video*
+
+12. STAY IN ZOOM THROUGHOUT THE ENTIRE TIME OF THE EXAM 
+- DON'T EXIT ZOOM 
+- DON'T JOIN ANOTHER DISCORD SERVER 
+-> VOID THE EXAM
+
+13. Join lecture room so I can assign you to an exam room
+9:00 - 10:00 PST
+
+14. DO NOT ENTER a TA HELP CHANNEL
+-> VOID THE EXAM
+
+15. Don't cheat. PERIOD
+- it's very easy to catch cheaters
+- code is like a fingerprint
+- you need to feel comfortable about what you do and do not know to survive an engineering role
+    AVAILABLE RESOURCES
+    - Learn Platform
+    - ONLY Our class Github + YOUR Git repo
+    - Your code, your notes
+    - Official documentation
+    - Stack Overflow / Google
+
+16. ASKING FOR HELP
+ - this is an EXAM ¯\_(ツ)_/¯
+	-> what route is it not working on?
+	-> what function is it in?
+	-> what response is/not coming back?
+ - if you are stuck on a bug for > 20 mins I may or may not POINT you to a direction
+ - Ping in our main class DISCORD COHORT CHANNEL. 
+ DO NOT DM OR RAISE HAND ON ZOOM
+ 👉 screen share BEFORE asking for help - to speed up the process!
+
+17. GETTING GRADED
+ - double and triple check that you met ALL REQUIREMENTS. 
+ - test all routes / features
+ - Ping in our class DISCORD COHORT CHANNEL
+ 
+18. After finishing an exam: 
+-> take a break! you did it!
+-> read PROJECT STACK
+4:00pm -> attendance - check-in and Planning Meeting for Monday -> wireframes/user stories demo
+
+-= REQUIREMENTS =- 
+
+RED-BELT
+/Project
+	mkdir server
+	cd server
+	/server: 
+		touch server.js
+		npm init -y
+		npm i express mongoose cors
+		nodemon server.js
+
+	npx create-react-app client
+	cd client
+	/client: 
+		npm i axios react-router-dom
+		npm start
+
+- full CRUD
+    1 model, max 2*
+
+different input types: (all in the platform)
+    ex. dropdown, checkbox, number, textarea, etc.
+
+👉 DISPLAY ERROR MESSAGES from SERVER on create!
+
+not on the RED-BELT:
+- login/reg
+- auth
+- socket.io
+- nested schema (relationships)
+- css*
+- outside apis
+- sorting or existence checks (in the db)
+
+BLACK BELT
+- ¯\_(ツ)_/¯
+- deploy within 24 hours on AWS
+- screen shot your aws instance running on EC2
+
+you got this!
+💪😎
+
