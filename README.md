@@ -4,7 +4,7 @@
 <!-- [![Open in Visual Studio Code](https://img.shields.io/badge/open%20in%20vscode-blue?style=flat-square&logo=visualstudiocode)](https://open.vscode.dev/jupiterorbita/MERN_NOV_2022) -->
 <!-- [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/jupiterorbita/MERN_NOV_2022) -->
 
-## clone this repo, then `git pull` to get the latest changes
+## clone/fork this repo, then `git pull` to get the latest changes
 
 <br/>
 
