@@ -12,20 +12,22 @@ function App() {
       <h1>Routing</h1>
       {/* <a href="/">a tag home</a> |  */}
       <Link to={"/"}>Link home</Link> |
-      <Link to={"/other"}>other</Link> | 
+      <Link to={"/other"}>other</Link> |
       <Link to={"/form"}>FORM</Link>
       <hr />
 
-      <Form/>
+      <Form />
 
-      {/* theater state */}
       <fieldset>
         <legend>Routes component</legend>
 
+        {/* THEATER STAGE - ROUTES */}
         <Routes>
 
-          <Route path='/hero/:heroId' element={<Hero/>} />
+          {/* ACT I */}
+          <Route path='/hero/:heroId' element={<Hero />} />
 
+          {/* ACT II */}
           <Route path='/other' element={
             <>
               <Other />
@@ -38,7 +40,7 @@ function App() {
           <Route path='/' element={<Main />} />
 
           {/* wildcard */}
-          <Route path="*" element={<ErrorPage/>} />
+          <Route path="*" element={<ErrorPage />} />
 
         </Routes>
       </fieldset>

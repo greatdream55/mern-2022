@@ -15,6 +15,7 @@ const Form = (props) => {
         e.preventDefault();
         console.log(heroNum)
         navigate("/hero/" + heroNum)
+        // navigate("/hero/" + heroNum, {replace:true})
     }
 
     const goBack = () => {
@@ -25,7 +26,7 @@ const Form = (props) => {
         <div>
             <form onSubmit={submitHandler}>
                 enter a number
-                <input type="number" onChange={e => setHeroNum(e.target.value) }/>
+                <input type="number" onChange={e => setHeroNum(e.target.value) } value={heroNum}/>
                 <button>Submit`</button>
             </form>
 
