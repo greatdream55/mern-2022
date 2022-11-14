@@ -12,7 +12,7 @@ function App() {
       <h1>Routing</h1>
       {/* <a href="/">a tag home</a> |  */}
       <Link to={"/"}>Link home</Link> |
-      <Link to={"/other"}>other</Link> |
+      <Link to={"/other/"}>other</Link> |
       <Link to={"/form"}>FORM</Link>
       <hr />
 
@@ -29,10 +29,10 @@ function App() {
 
           {/* ACT II */}
           <Route path='/other' element={
-            <>
+            <div>
               <Other />
               <Main />
-            </>
+            </div>
           } />
 
           {/* <Route path='/form' element={<Form/>} /> */}

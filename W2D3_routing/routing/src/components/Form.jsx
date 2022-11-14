@@ -15,6 +15,7 @@ const Form = (props) => {
         e.preventDefault();
         console.log(heroNum)
         navigate("/hero/" + heroNum)
+        setHeroNum(1)
         // navigate("/hero/" + heroNum, {replace:true})
     }
 

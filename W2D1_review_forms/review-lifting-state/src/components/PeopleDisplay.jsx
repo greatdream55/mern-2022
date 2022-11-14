@@ -5,6 +5,8 @@ const PeopleDisplay = (props) => {
         <div>
             {
                 props.people.map((person, index) => {
+                    // a key must be provided to the return
+                    // key is dynamic
                     return <div key={index}>
                         <p>
                             name:  {person.name}

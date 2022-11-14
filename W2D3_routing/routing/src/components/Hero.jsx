@@ -1,20 +1,28 @@
 import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import { useParams, useNavigate } from 'react-router-dom'
 import axios from 'axios';
 
 const Hero = (props) => {
 
     const [hero, setHero] = useState(null)
     const { heroId } = useParams();
+    console.log(heroId)
+
+    // ! to use navigate we must first invoke it
+    const navigate = useNavigate();
 
     useEffect(() => {
+        // axios.get("https://akabab.github.io/superhero-api/api/id/" + heroId + ".json")
         axios.get(`https://akabab.github.io/superhero-api/api/id/${heroId}.json`)
             .then((apiResponse) => {
                 console.log(apiResponse.data);
                 setHero(apiResponse.data)
             })
-            .catch(err => console.log("❌", err))
-    }, [heroId])
+            .catch(err => {
+                console.log("❌", err)
+                navigate("/theWildCardRouteWillCatchThis", {replace:true})
+            })
+    }, [heroId, navigate])
 
 
     return (
