@@ -30,7 +30,37 @@
     6. move to next item and repeat
 */
 
-function insertionSort(arr) { }
+
+
+
+function insertionSort(arr) {
+    // outside loop start at idx 1
+    for (let x = 1; x < arr.length; x++) {
+        // assign a temp where x is
+        let temp = arr[x];
+        // inside (backwards) loop start 1 before x
+        for (let y = x - 1; y >= 0; y--) {
+            // check with temp
+            if (arr[y] > temp) {
+                // copy y over +1 idx
+                arr[y + 1] = arr[y];
+                // what if y is at the beginning
+                //     if (y == 0) {
+                //         arr[y] = temp;
+                //     } 
+                // } else {
+                //     // insert temp
+                //     arr[y+1] = temp;
+                //     break;
+                // }
+                arr[y] = temp;
+            }
+
+        }
+        
+    }
+    console.log(arr);
+}
 
 insertionSort([3, 5, 2, 1, 0])
 insertionSort([3, 0])
