@@ -59,7 +59,7 @@ let me know
 -> VOID THE EXAM
 
 13. Join lecture room so I can assign you to an exam room
-9:00 - 10:00 PST
+9:00 - 10:00 MST
 
 14. DO NOT ENTER a TA HELP CHANNEL
 -> VOID THE EXAM
@@ -93,7 +93,7 @@ let me know
 18. After finishing an exam: 
 -> take a break! you did it!
 -> read PROJECT STACK
-4:00pm -> attendance - check-in and Planning Meeting for Monday -> wireframes/user stories demo
+-> Monday Planning Meeting -> wireframes/user stories demo
 
 -= REQUIREMENTS =- 
 
@@ -124,7 +124,7 @@ different input types: (all in the platform)
 not on the RED-BELT:
 - login/reg
 - auth
-- socket.io
+- socket.io***
 - nested schema (relationships)
 - css*
 - outside apis
