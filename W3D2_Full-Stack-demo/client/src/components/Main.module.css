@@ -1,0 +1,9 @@
+.note {
+    width: 60%;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: antiquewhite;
+}
